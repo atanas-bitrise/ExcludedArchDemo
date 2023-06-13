@@ -5,6 +5,9 @@
       location = "group:TestPlan.xctestplan">
    </FileRef>
    <FileRef
+      location = "group:CoreTestPlan.xctestplan">
+   </FileRef>
+   <FileRef
       location = "group:Core">
    </FileRef>
    <FileRef
