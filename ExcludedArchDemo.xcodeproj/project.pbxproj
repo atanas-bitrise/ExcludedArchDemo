@@ -15,11 +15,20 @@
 		3D78C7D12A32D73F004B7660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D78C7D02A32D73F004B7660 /* Assets.xcassets */; };
 		3D78C7D42A32D73F004B7660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D78C7D22A32D73F004B7660 /* LaunchScreen.storyboard */; };
 		4329D2A52A3790A6008BF76A /* ExcludedArchDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4329D2A42A3790A6008BF76A /* ExcludedArchDemoTests.swift */; };
+		4329D2B22A3846BB008BF76A /* ExcludedArchDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4329D2B12A3846BB008BF76A /* ExcludedArchDemoUITests.swift */; };
+		4329D2B42A3846BB008BF76A /* ExcludedArchDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4329D2B32A3846BB008BF76A /* ExcludedArchDemoUITestsLaunchTests.swift */; };
 		532A7160A3AC79A6C007C015 /* Pods_ExcludedArchDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4410243073DA7DCAEB3A9B /* Pods_ExcludedArchDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		4329D2A62A3790A6008BF76A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D78C7BC2A32D73E004B7660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D78C7C32A32D73E004B7660;
+			remoteInfo = ExcludedArchDemo;
+		};
+		4329D2B52A3846BB008BF76A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3D78C7BC2A32D73E004B7660 /* Project object */;
 			proxyType = 1;
@@ -39,6 +48,9 @@
 		3D78C7D52A32D73F004B7660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4329D2A22A3790A6008BF76A /* ExcludedArchDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExcludedArchDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4329D2A42A3790A6008BF76A /* ExcludedArchDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcludedArchDemoTests.swift; sourceTree = "<group>"; };
+		4329D2AF2A3846BB008BF76A /* ExcludedArchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExcludedArchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4329D2B12A3846BB008BF76A /* ExcludedArchDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcludedArchDemoUITests.swift; sourceTree = "<group>"; };
+		4329D2B32A3846BB008BF76A /* ExcludedArchDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcludedArchDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		878670B4A2677A79EA79F29A /* Pods-ExcludedArchDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExcludedArchDemo.debug.xcconfig"; path = "Target Support Files/Pods-ExcludedArchDemo/Pods-ExcludedArchDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C94ADAB9927DA6EC6E14FB00 /* Pods-ExcludedArchDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExcludedArchDemo.release.xcconfig"; path = "Target Support Files/Pods-ExcludedArchDemo/Pods-ExcludedArchDemo.release.xcconfig"; sourceTree = "<group>"; };
 		DE4410243073DA7DCAEB3A9B /* Pods_ExcludedArchDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExcludedArchDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +73,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4329D2AC2A3846BB008BF76A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -69,6 +88,7 @@
 			children = (
 				3D78C7C62A32D73E004B7660 /* ExcludedArchDemo */,
 				4329D2A32A3790A6008BF76A /* ExcludedArchDemoTests */,
+				4329D2B02A3846BB008BF76A /* ExcludedArchDemoUITests */,
 				3D78C7C52A32D73E004B7660 /* Products */,
 				C0ADD841A92A91BFB709B2BF /* Pods */,
 				A47DFE10AB50FBAFD74359C3 /* Frameworks */,
@@ -80,6 +100,7 @@
 			children = (
 				3D78C7C42A32D73E004B7660 /* ExcludedArchDemo.app */,
 				4329D2A22A3790A6008BF76A /* ExcludedArchDemoTests.xctest */,
+				4329D2AF2A3846BB008BF76A /* ExcludedArchDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,6 +125,15 @@
 				4329D2A42A3790A6008BF76A /* ExcludedArchDemoTests.swift */,
 			);
 			path = ExcludedArchDemoTests;
+			sourceTree = "<group>";
+		};
+		4329D2B02A3846BB008BF76A /* ExcludedArchDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4329D2B12A3846BB008BF76A /* ExcludedArchDemoUITests.swift */,
+				4329D2B32A3846BB008BF76A /* ExcludedArchDemoUITestsLaunchTests.swift */,
+			);
+			path = ExcludedArchDemoUITests;
 			sourceTree = "<group>";
 		};
 		A47DFE10AB50FBAFD74359C3 /* Frameworks */ = {
@@ -167,6 +197,24 @@
 			productReference = 4329D2A22A3790A6008BF76A /* ExcludedArchDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		4329D2AE2A3846BB008BF76A /* ExcludedArchDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4329D2B72A3846BB008BF76A /* Build configuration list for PBXNativeTarget "ExcludedArchDemoUITests" */;
+			buildPhases = (
+				4329D2AB2A3846BB008BF76A /* Sources */,
+				4329D2AC2A3846BB008BF76A /* Frameworks */,
+				4329D2AD2A3846BB008BF76A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4329D2B62A3846BB008BF76A /* PBXTargetDependency */,
+			);
+			name = ExcludedArchDemoUITests;
+			productName = ExcludedArchDemoUITests;
+			productReference = 4329D2AF2A3846BB008BF76A /* ExcludedArchDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -181,6 +229,10 @@
 						CreatedOnToolsVersion = 14.3;
 					};
 					4329D2A12A3790A6008BF76A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3D78C7C32A32D73E004B7660;
+					};
+					4329D2AE2A3846BB008BF76A = {
 						CreatedOnToolsVersion = 14.3.1;
 						TestTargetID = 3D78C7C32A32D73E004B7660;
 					};
@@ -201,6 +253,7 @@
 			targets = (
 				3D78C7C32A32D73E004B7660 /* ExcludedArchDemo */,
 				4329D2A12A3790A6008BF76A /* ExcludedArchDemoTests */,
+				4329D2AE2A3846BB008BF76A /* ExcludedArchDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -217,6 +270,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4329D2A02A3790A6008BF76A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4329D2AD2A3846BB008BF76A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -303,6 +363,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4329D2AB2A3846BB008BF76A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4329D2B22A3846BB008BF76A /* ExcludedArchDemoUITests.swift in Sources */,
+				4329D2B42A3846BB008BF76A /* ExcludedArchDemoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -310,6 +379,11 @@
 			isa = PBXTargetDependency;
 			target = 3D78C7C32A32D73E004B7660 /* ExcludedArchDemo */;
 			targetProxy = 4329D2A62A3790A6008BF76A /* PBXContainerItemProxy */;
+		};
+		4329D2B62A3846BB008BF76A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D78C7C32A32D73E004B7660 /* ExcludedArchDemo */;
+			targetProxy = 4329D2B52A3846BB008BF76A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -545,6 +619,40 @@
 			};
 			name = Release;
 		};
+		4329D2B82A3846BB008BF76A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitrise.ExcludedArchDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExcludedArchDemo;
+			};
+			name = Debug;
+		};
+		4329D2B92A3846BB008BF76A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitrise.ExcludedArchDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExcludedArchDemo;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -571,6 +679,15 @@
 			buildConfigurations = (
 				4329D2A82A3790A6008BF76A /* Debug */,
 				4329D2A92A3790A6008BF76A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4329D2B72A3846BB008BF76A /* Build configuration list for PBXNativeTarget "ExcludedArchDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4329D2B82A3846BB008BF76A /* Debug */,
+				4329D2B92A3846BB008BF76A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
