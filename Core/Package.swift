@@ -23,6 +23,9 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "CoreTests",
-            dependencies: ["Core"]),
+            dependencies: ["Core"],
+            swiftSettings: [
+                .define("EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64")
+            ]),
     ]
 )
